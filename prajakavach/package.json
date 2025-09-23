@@ -1,7 +1,7 @@
 {
   "name": "prajakavach",
   "version": "1.0.0",
-  "homepage": "https://Hemanth251005.github.io/prajakavach",
+  "homepage": "https://Hemanth251005.github.io/prajakavach/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
