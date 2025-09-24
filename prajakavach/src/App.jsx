@@ -34,13 +34,14 @@ function AppContent() {
       <Toaster position="top-center" />
       <ThemeSelector />
       <Routes>
-        <Route path="/prajakavach" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/student" element={<StudentDashboard />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>
   );
